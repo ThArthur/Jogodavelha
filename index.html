@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Jogo da velha</title>
+		<link rel="shortcut icon" href="style/imagens/simbolo.jpg">
+		<script src="JS.js"></script>
+		<link rel="stylesheet" type="text/css" href="css1.css">
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h1 align="center">Jogo Da Velha</h1>
+		<table align="center">
+			<tr>
+				<th><img class="branco" src="imagens/branco.jpg" id="casa1" onclick="casa_1()"></th>
+				<th><img class="branco" src="imagens/branco.jpg" id="casa2" onclick="casa_2()"></th>
+				<th><img class="branco" src="imagens/branco.jpg" id="casa3" onclick="casa_3()"></th>
+			</tr>
+
+			<tr>
+				<th><img class="branco" src="imagens/branco.jpg" id="casa4" onclick="casa_4()"></th>
+				<th><img class="branco" src="imagens/branco.jpg" id="casa5" onclick="casa_5()"></th>
+				<th><img class="branco" src="imagens/branco.jpg" id="casa6" onclick="casa_6()"></th>
+			</tr>
+
+			<tr>
+				<th><img class="branco" src="imagens/branco.jpg" id="casa7" onclick="casa_7()"></th>
+				<th><img class="branco" src="imagens/branco.jpg" id="casa8" onclick="casa_8()"></th>
+				<th><img class="branco" src="imagens/branco.jpg" id="casa9" onclick="casa_9()"></th>
+			</tr>
+		</table>
+		<h3 class="pontos">Pontos do X: <span id="pontos_x">0</span></h3>
+		<h3 class="pontos">Pontos do O: <span id="pontos_o">0</span></h3>
+		<button onclick="start()">Reiniciar</button>
+	</body>
+</html>
